@@ -1,0 +1,338 @@
+/* 
+For Mobile Devices – 320px — 480px
+iPads and Tablets – 481px — 768px
+Laptops and small screen – 769px — 1024px
+Large screens and Desktops – 1025px — 1200px
+TV and Extra Large Screens – 1201px and more 
+*/
+
+/* general rule */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* For Mobile Devices */
+@media (min-width: 320px) and (orientation: portrait) {
+    .main-container{
+        width: 100%;
+        /* height: 100vh; */
+        margin: 0 auto;
+        background: #1F2937;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .user-input{
+        width: 85%;
+        height: 45vh;
+        padding-top: 8px;
+        /* padding-bottom: 4px; */
+        background: #6943FF;
+        color: #fff;
+        text-align: center;
+        margin: 18px auto;
+    }
+    .user-input h2{
+        font-size: 2rem;
+        /* line-height: 25%; */
+    }
+    .output {
+        width: 85%;
+        height: 30vh;
+        border-radius: 4.68px 0px 0px 0px;
+        background: #273549;
+        margin: 10px auto;
+    }
+    .output h3{
+        color: #CCC1FF;
+        text-align: center;
+       padding-top: 3% ;
+    }
+    .output p{
+        color: #fff;
+        text-align: center;
+        font-size: 1.5rem;
+       padding-top: 2% ;
+    }
+    #input-el{
+        width: 30%;
+        height: 10vh;
+        border-radius: 5px 0px 0px 0px;
+        border: 2px 0px 0px 0px;
+        font-family: Inter;
+        font-size: 58px;
+        font-weight: 800;
+        line-height: 24.39px;
+        text-align: center;
+    
+    }
+    
+    button{
+        width: 30%;
+        padding: 3% 6%;
+        border-radius: 5px;
+        font-size: large;
+        margin: 8px auto;
+    }
+  }
+
+@media (max-width: 768px) and (orientation: Landscape) {
+    .main-container{
+        width: 100%;
+        /* height: 100vh; */
+        margin: 0 auto;
+        background: #1F2937;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .user-input{
+        width: 85%;
+        /* height: 85vh; */
+        padding-top: 4px;
+        padding-bottom: 4px;
+        background: #6943FF;
+        color: #fff;
+        text-align: center;
+        margin: 8px;
+    }
+    .user-input h2{
+        font-size: 2rem;
+        /* line-height: 25%; */
+    }
+    .output {
+        width: 85%;
+        height: 35vh;
+        border-radius: 4.68px 0px 0px 0px;
+        background: #273549;
+        margin: 10px auto;
+    }
+    .output h3{
+        color: #CCC1FF;
+        text-align: center;
+       /* padding-top: 3% ; */
+    }
+    .output p{
+        color: #fff;
+        text-align: center;
+        font-size: 1.5rem;
+       /* padding-top: 2% ; */
+    }
+    #input-el{
+        width: 40%;
+        height: 30vh;
+        border-radius: 5px;
+        border: 2px;
+        font-family: Inter;
+        font-size: 58px;
+        font-weight: 800;
+        line-height: 24.39px;
+        text-align: center;
+    
+    }
+    
+    button{
+        width: 40%;
+        /* padding: 3% 6%; */
+        border-radius: 5px;
+        font-size: x-large;
+        margin: 16px auto;
+    }
+  }
+
+/* iPads and Tablets – 481px — 768px */
+@media (min-width: 481px) and (orientation: portrait) {
+    .main-container{
+        width: 100%;
+        /* height: 100vh; */
+        margin: 0 auto;
+        background: #1F2937;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .user-input{
+        width: 85%;
+        height: 40vh;
+        padding-top: 4px;
+        padding-bottom: 6px;
+        background: #6943FF;
+        color: #fff;
+        text-align: center;
+        margin: 8px auto;
+    }
+    .user-input h2{
+        font-size: 2rem;
+        /* line-height: 25%; */
+    }
+    .output {
+        width: 85%;
+        height: 30vh;
+        border-radius: 4.68px 0px 0px 0px;
+        background: #273549;
+        margin: 10px auto;
+    }
+    .output h3{
+        color: #CCC1FF;
+        text-align: center;
+        font-size: 2rem;
+       padding-top: 3% ;
+    }
+    .output p{
+        color: #fff;
+        text-align: center;
+        font-size: 2rem;
+       padding-top: 4% ;
+    }
+    #input-el{
+        width: 30%;
+        height: 10vh;
+        border-radius: 5px ;
+        border: 2px ;
+        font-family: Inter;
+        font-size: 58px;
+        font-weight: 800;
+        line-height: 24.39px;
+        text-align: center;
+    
+    }
+    
+    button{
+        width: 30%;
+        padding: 3% 6%;
+        border-radius: 5px;
+        font-size: large;
+        margin: 8px auto;
+    }
+  }
+
+@media (max-width: 769px) and (orientation: Landscape) {
+    .main-container{
+        width: 100%;
+        /* height: 100vh; */
+        margin: 0 auto;
+        background: #1F2937;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .user-input{
+        width: 85%;
+        /* height: 85vh; */
+        padding-top: 8px;
+        padding-bottom: 4px;
+        background: #6943FF;
+        color: #fff;
+        text-align: center;
+        margin: 8px;
+    }
+    .user-input h2{
+        font-size: 2rem;
+        /* line-height: 25%; */
+    }
+    .output {
+        width: 85%;
+        height: 35vh;
+        border-radius: 4.68px 0px 0px 0px;
+        background: #273549;
+        margin: 10px auto;
+    }
+    .output h3{
+        color: #CCC1FF;
+        text-align: center;
+       /* padding-top: 3% ; */
+    }
+    .output p{
+        color: #fff;
+        text-align: center;
+        font-size: 1.5rem;
+       /* padding-top: 2% ; */
+    }
+    #input-el{
+        width: 40%;
+        height: 30vh;
+        border-radius: 5px;
+        border: 2px;
+        font-family: Inter;
+        font-size: 58px;
+        font-weight: 800;
+        line-height: 24.39px;
+        text-align: center;
+    
+    }
+    
+    button{
+        width: 40%;
+        /* padding: 3% 6%; */
+        border-radius: 5px;
+        font-size: x-large;
+        margin: 16px auto;
+    }
+  }
+  
+/* Laptops and small screen – 769px — 1024px */
+@media (min-width: 769px) {
+    .main-container{
+        width: 550px;
+        height: 100vh;
+        margin: 0 auto;
+        background: #1F2937;
+    }
+    
+    .user-input{
+        width: 550px;
+        height: 200px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        background: #6943FF;
+        color: #fff;
+        text-align: center;
+    }
+    .output {
+        width: 500px;
+        height: 18vh;
+        border-radius: 4.68px 0px 0px 0px;
+        background: #273549;
+        margin: 10px auto;
+    }
+    .output h3{
+        color: #CCC1FF;
+        text-align: center;
+       padding-top: 10px ;
+    }
+    .output p{
+        color: #fff;
+        text-align: center;
+       padding-top: 8px ;
+    }
+    #input-el{
+        width: 117px;
+        height: 83px;
+        border-radius: 5px 0px 0px 0px;
+        border: 2px 0px 0px 0px;
+        font-family: Inter;
+        font-size: 58px;
+        font-weight: 800;
+        line-height: 24.39px;
+        text-align: center;
+    
+    }
+    
+    button{
+        width: 117px;
+        height: 42px;
+        padding: 9px 27.5px 9px 27.5px;
+        border-radius: 5px;
+        font-size: 16px;
+        margin: 2px auto;
+    }
+  }
+
+/* Large screens and Desktops – 1025px — 1200px */
+/* @media (min-width: 1025px) {
+    
+  } */
